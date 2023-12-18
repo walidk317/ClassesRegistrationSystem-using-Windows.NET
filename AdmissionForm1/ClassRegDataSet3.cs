@@ -2,7 +2,7 @@
 {
 
 
-    partial class iihtDataSet3
+    partial class ClassRegDataSet3
     {
     }
 }
