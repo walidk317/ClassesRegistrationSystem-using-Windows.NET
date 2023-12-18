@@ -397,12 +397,12 @@
             // admissiontblBindingSource
             // 
             this.admissiontblBindingSource.DataMember = "admissiontbl";
-            this.admissiontblBindingSource.DataSource = this.iihtDataSet1;
+            this.admissiontblBindingSource.DataSource = this.ClassRegDataSet1;
             // 
-            // iihtDataSet1
+            // ClassRegDataSet1
             // 
-            this.iihtDataSet1.DataSetName = "iihtDataSet1";
-            this.iihtDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.ClassRegDataSet1.DataSetName = "ClassRegDataSet1";
+            this.ClassRegDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // button1
             // 
@@ -448,15 +448,15 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // iihtDataSet
+            // ClassRegDataSet
             // 
-            this.iihtDataSet.DataSetName = "iihtDataSet";
-            this.iihtDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.ClassRegDataSet.DataSetName = "ClassRegDataSet";
+            this.ClassRegDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // coursetblBindingSource
             // 
             this.coursetblBindingSource.DataMember = "coursetbl";
-            this.coursetblBindingSource.DataSource = this.iihtDataSet;
+            this.coursetblBindingSource.DataSource = this.ClassRegDataSet;
             // 
             // coursetblTableAdapter
             // 
@@ -533,8 +533,8 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.admissiontblBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iihtDataSet1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iihtDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ClassRegDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ClassRegDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.coursetblBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -571,14 +571,14 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
-        private iihtDataSet iihtDataSet;
+        private ClassRegDataSet ClassRegDataSet;
         private System.Windows.Forms.BindingSource coursetblBindingSource;
-        private iihtDataSetTableAdapters.coursetblTableAdapter coursetblTableAdapter;
+        private ClassRegDataSetTableAdapters.coursetblTableAdapter coursetblTableAdapter;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private iihtDataSet1 iihtDataSet1;
+        private ClassRegDataSet1 ClassRegDataSet1;
         private System.Windows.Forms.BindingSource admissiontblBindingSource;
-        private iihtDataSet1TableAdapters.admissiontblTableAdapter admissiontblTableAdapter;
+        private ClassRegDataSet1TableAdapters.admissiontblTableAdapter admissiontblTableAdapter;
         private System.Windows.Forms.DataGridViewTextBoxColumn studentidDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn firstnameDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn lastnameDataGridViewTextBoxColumn;
