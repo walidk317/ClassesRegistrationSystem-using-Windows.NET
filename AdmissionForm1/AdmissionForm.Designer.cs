@@ -67,22 +67,22 @@
             this.admissiondateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.docnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.admissiontblBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.iihtDataSet1 = new AdmissionForm1.iihtDataSet1();
+            this.ClassRegDataSet1 = new AdmissionForm1.ClassRegDataSet1();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.iihtDataSet = new AdmissionForm1.iihtDataSet();
+            this.ClassRegDataSet = new AdmissionForm1.ClassRegDataSet();
             this.coursetblBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.coursetblTableAdapter = new AdmissionForm1.iihtDataSetTableAdapters.coursetblTableAdapter();
+            this.coursetblTableAdapter = new AdmissionForm1.ClassRegDataSetTableAdapters.coursetblTableAdapter();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.admissiontblTableAdapter = new AdmissionForm1.iihtDataSet1TableAdapters.admissiontblTableAdapter();
+            this.admissiontblTableAdapter = new AdmissionForm1.ClassRegDataSet1TableAdapters.admissiontblTableAdapter();
             this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.admissiontblBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iihtDataSet1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iihtDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ClassRegDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ClassRegDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.coursetblBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
