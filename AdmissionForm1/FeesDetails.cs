@@ -15,7 +15,7 @@ namespace AdmissionForm1
 {
     public partial class FeesDetails : Form
     {
-        string str = "Data Source=WALIDKADRI;Initial Catalog = iiht; Integrated Security = True";
+        string str = "Data Source=YOURSERVERNAME;Initial Catalog = ClassReg; Integrated Security = True";
         SqlConnection con;
         SqlCommand cmd;
         public FeesDetails()
