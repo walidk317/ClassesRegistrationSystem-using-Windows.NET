@@ -19,8 +19,8 @@ namespace AdmissionForm1
 
         private void ViewFeeData_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'iihtDataSet2.studentfeesdetails' table. You can move, or remove it, as needed.
-            this.studentfeesdetailsTableAdapter.Fill(this.iihtDataSet2.studentfeesdetails);
+            // TODO: This line of code loads data into the 'ClassRegDataSet2.studentfeesdetails' table. You can move, or remove it, as needed.
+            this.studentfeesdetailsTableAdapter.Fill(this.ClassRegDataSet2.studentfeesdetails);
 
         }
     }
