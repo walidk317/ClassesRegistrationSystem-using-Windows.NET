@@ -86,28 +86,28 @@
     <Compile Include="FeesDetails.Designer.cs">
       <DependentUpon>FeesDetails.cs</DependentUpon>
     </Compile>
-    <Compile Include="iihtDataSet.Designer.cs">
+    <Compile Include="ClassRegDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>iihtDataSet.xsd</DependentUpon>
+      <DependentUpon>ClassRegDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="iihtDataSet1.Designer.cs">
+    <Compile Include="ClassRegDataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>iihtDataSet1.xsd</DependentUpon>
+      <DependentUpon>ClassRegDataSet1.xsd</DependentUpon>
     </Compile>
-    <Compile Include="iihtDataSet2.Designer.cs">
+    <Compile Include="ClassRegDataSet2.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>iihtDataSet2.xsd</DependentUpon>
+      <DependentUpon>ClassRegDataSet2.xsd</DependentUpon>
     </Compile>
-    <Compile Include="iihtDataSet3.cs">
-      <DependentUpon>iihtDataSet3.xsd</DependentUpon>
+    <Compile Include="ClassRegDataSet3.cs">
+      <DependentUpon>ClassRegDataSet3.xsd</DependentUpon>
     </Compile>
-    <Compile Include="iihtDataSet3.Designer.cs">
+    <Compile Include="ClassRegDataSet3.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>iihtDataSet3.xsd</DependentUpon>
+      <DependentUpon>ClassRegDataSet3.xsd</DependentUpon>
     </Compile>
     <Compile Include="MainPage.cs">
       <SubType>Form</SubType>
@@ -166,49 +166,49 @@
     <EmbeddedResource Include="ViewFeeData.resx">
       <DependentUpon>ViewFeeData.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="iihtDataSet.xsc">
-      <DependentUpon>iihtDataSet.xsd</DependentUpon>
+    <None Include="ClassRegDataSet.xsc">
+      <DependentUpon>ClassRegDataSet.xsd</DependentUpon>
     </None>
-    <None Include="iihtDataSet.xsd">
+    <None Include="ClassRegDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>iihtDataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>ClassRegDataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="iihtDataSet.xss">
-      <DependentUpon>iihtDataSet.xsd</DependentUpon>
+    <None Include="ClassRegDataSet.xss">
+      <DependentUpon>ClassRegDataSet.xsd</DependentUpon>
     </None>
-    <None Include="iihtDataSet1.xsc">
-      <DependentUpon>iihtDataSet1.xsd</DependentUpon>
+    <None Include="ClassRegDataSet1.xsc">
+      <DependentUpon>ClassRegDataSet1.xsd</DependentUpon>
     </None>
-    <None Include="iihtDataSet1.xsd">
+    <None Include="ClassRegDataSet1.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>iihtDataSet1.Designer.cs</LastGenOutput>
+      <LastGenOutput>ClassRegDataSet1.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="iihtDataSet1.xss">
-      <DependentUpon>iihtDataSet1.xsd</DependentUpon>
+    <None Include="ClassRegDataSet1.xss">
+      <DependentUpon>ClassRegDataSet1.xsd</DependentUpon>
     </None>
-    <None Include="iihtDataSet2.xsc">
-      <DependentUpon>iihtDataSet2.xsd</DependentUpon>
+    <None Include="ClassRegDataSet2.xsc">
+      <DependentUpon>ClassRegDataSet2.xsd</DependentUpon>
     </None>
-    <None Include="iihtDataSet2.xsd">
+    <None Include="ClassRegDataSet2.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>iihtDataSet2.Designer.cs</LastGenOutput>
+      <LastGenOutput>ClassRegDataSet2.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="iihtDataSet2.xss">
-      <DependentUpon>iihtDataSet2.xsd</DependentUpon>
+    <None Include="ClassRegDataSet2.xss">
+      <DependentUpon>ClassRegDataSet2.xsd</DependentUpon>
     </None>
-    <None Include="iihtDataSet3.xsc">
-      <DependentUpon>iihtDataSet3.xsd</DependentUpon>
+    <None Include="ClassRegDataSet3.xsc">
+      <DependentUpon>ClassRegDataSet3.xsd</DependentUpon>
     </None>
-    <None Include="iihtDataSet3.xsd">
+    <None Include="ClassRegDataSet3.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>iihtDataSet3.Designer.cs</LastGenOutput>
+      <LastGenOutput>ClassRegDataSet3.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="iihtDataSet3.xss">
-      <DependentUpon>iihtDataSet3.xsd</DependentUpon>
+    <None Include="ClassRegDataSet3.xss">
+      <DependentUpon>ClassRegDataSet3.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
