@@ -127,7 +127,7 @@ namespace AdmissionForm1 {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public override global::System.Data.DataSet Clone() {
-            iihtDataSet cln = ((iihtDataSet)(base.Clone()));
+            ClassRegDataSet cln = ((ClassRegDataSet)(base.Clone()));
             cln.InitVars();
             cln.SchemaSerializationMode = this.SchemaSerializationMode;
             return cln;
@@ -199,9 +199,9 @@ namespace AdmissionForm1 {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitClass() {
-            this.DataSetName = "iihtDataSet";
+            this.DataSetName = "ClassRegDataSet";
             this.Prefix = "";
-            this.Namespace = "http://tempuri.org/iihtDataSet.xsd";
+            this.Namespace = "http://tempuri.org/ClassRegDataSet.xsd";
             this.EnforceConstraints = true;
             this.SchemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
             this.tablecoursetbl = new coursetblDataTable();
@@ -225,7 +225,7 @@ namespace AdmissionForm1 {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedDataSetSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
-            iihtDataSet ds = new iihtDataSet();
+            ClassRegDataSet ds = new ClassRegDataSet();
             global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
             global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
             global::System.Xml.Schema.XmlSchemaAny any = new global::System.Xml.Schema.XmlSchemaAny();
@@ -490,7 +490,7 @@ namespace AdmissionForm1 {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                iihtDataSet ds = new iihtDataSet();
+                ClassRegDataSet ds = new ClassRegDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -638,7 +638,7 @@ namespace AdmissionForm1 {
         }
     }
 }
-namespace AdmissionForm1.iihtDataSetTableAdapters {
+namespace AdmissionForm1.ClassRegDataSetTableAdapters {
     
     
     /// <summary>
@@ -797,7 +797,7 @@ namespace AdmissionForm1.iihtDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::AdmissionForm1.Properties.Settings.Default.iihtConnectionString;
+            this._connection.ConnectionString = global::AdmissionForm1.Properties.Settings.Default.ClassRegConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -814,7 +814,7 @@ namespace AdmissionForm1.iihtDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(iihtDataSet.coursetblDataTable dataTable) {
+        public virtual int Fill(ClassRegDataSet.coursetblDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -827,9 +827,9 @@ namespace AdmissionForm1.iihtDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual iihtDataSet.coursetblDataTable GetData() {
+        public virtual ClassRegDataSet.coursetblDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            iihtDataSet.coursetblDataTable dataTable = new iihtDataSet.coursetblDataTable();
+            ClassRegDataSet.coursetblDataTable dataTable = new ClassRegDataSet.coursetblDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -837,14 +837,14 @@ namespace AdmissionForm1.iihtDataSetTableAdapters {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(iihtDataSet.coursetblDataTable dataTable) {
+        public virtual int Update(ClassRegDataSet.coursetblDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(iihtDataSet dataSet) {
+        public virtual int Update(ClassRegDataSet dataSet) {
             return this.Adapter.Update(dataSet, "coursetbl");
         }
         
@@ -1057,7 +1057,7 @@ namespace AdmissionForm1.iihtDataSetTableAdapters {
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateUpdatedRows(iihtDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateUpdatedRows(ClassRegDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._coursetblTableAdapter != null)) {
                 global::System.Data.DataRow[] updatedRows = dataSet.coursetbl.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
@@ -1076,7 +1076,7 @@ namespace AdmissionForm1.iihtDataSetTableAdapters {
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateInsertedRows(iihtDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateInsertedRows(ClassRegDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._coursetblTableAdapter != null)) {
                 global::System.Data.DataRow[] addedRows = dataSet.coursetbl.Select(null, null, global::System.Data.DataViewRowState.Added);
@@ -1094,7 +1094,7 @@ namespace AdmissionForm1.iihtDataSetTableAdapters {
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateDeletedRows(iihtDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
+        private int UpdateDeletedRows(ClassRegDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
             int result = 0;
             if ((this._coursetblTableAdapter != null)) {
                 global::System.Data.DataRow[] deletedRows = dataSet.coursetbl.Select(null, null, global::System.Data.DataViewRowState.Deleted);
@@ -1136,7 +1136,7 @@ namespace AdmissionForm1.iihtDataSetTableAdapters {
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public virtual int UpdateAll(iihtDataSet dataSet) {
+        public virtual int UpdateAll(ClassRegDataSet dataSet) {
             if ((dataSet == null)) {
                 throw new global::System.ArgumentNullException("dataSet");
             }
