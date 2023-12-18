@@ -15,7 +15,7 @@ namespace AdmissionForm1
     public partial class AdmissionForm : Form
         
     {
-        string str = "Data Source=WALIDKADRI;Initial Catalog = iiht; Integrated Security = True";
+        string str = "Data Source=WALIDKADRI;Initial Catalog = ClassReg; Integrated Security = True";
         SqlConnection con;
         SqlCommand cmd;
         public AdmissionForm()
@@ -30,10 +30,10 @@ namespace AdmissionForm1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'iihtDataSet1.admissiontbl' table. You can move, or remove it, as needed.
-            this.admissiontblTableAdapter.Fill(this.iihtDataSet1.admissiontbl);
-            // TODO: This line of code loads data into the 'iihtDataSet.coursetbl' table. You can move, or remove it, as needed.
-            this.coursetblTableAdapter.Fill(this.iihtDataSet.coursetbl);
+            // TODO: This line of code loads data into the 'ClassRegDataSet1.admissiontbl' table. You can move, or remove it, as needed.
+            this.admissiontblTableAdapter.Fill(this.ClassRegDataSet1.admissiontbl);
+            // TODO: This line of code loads data into the 'ClassRegDataSet.coursetbl' table. You can move, or remove it, as needed.
+            this.coursetblTableAdapter.Fill(this.ClassRegDataSet.coursetbl);
             con = new SqlConnection(str);
             con.Open();
             populateComboBox();
