@@ -61,7 +61,7 @@ SELECT cid, coursename FROM coursetbl WHERE (cid = @cid)</CommandText>
       </DataSource>
     </xs:appinfo>
   </xs:annotation>
-  <xs:element name="iihtDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="iihtDataSet" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="iihtDataSet">
+  <xs:element name="ClassRegDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ClassRegDataSet" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ClassRegDataSet">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
         <xs:element name="coursetbl" msprop:Generator_RowClassName="coursetblRow" msprop:Generator_RowEvHandlerName="coursetblRowChangeEventHandler" msprop:Generator_RowDeletedName="coursetblRowDeleted" msprop:Generator_RowDeletingName="coursetblRowDeleting" msprop:Generator_RowEvArgName="coursetblRowChangeEvent" msprop:Generator_TablePropName="coursetbl" msprop:Generator_RowChangedName="coursetblRowChanged" msprop:Generator_UserTableName="coursetbl" msprop:Generator_RowChangingName="coursetblRowChanging" msprop:Generator_TableClassName="coursetblDataTable" msprop:Generator_TableVarName="tablecoursetbl">
