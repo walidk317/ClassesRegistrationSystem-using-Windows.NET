@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<xs:schema id="iihtDataSet2" targetNamespace="http://tempuri.org/iihtDataSet2.xsd" xmlns:mstns="http://tempuri.org/iihtDataSet2.xsd" xmlns="http://tempuri.org/iihtDataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+<xs:schema id="ClassRegDataSet2" targetNamespace="http://tempuri.org/ClassRegDataSet2.xsd" xmlns:mstns="http://tempuri.org/ClassRegDataSet2.xsd" xmlns="http://tempuri.org/ClassRegDataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
   <xs:annotation>
     <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
       <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
         <Connections>
-          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="iihtConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="iihtConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.AdmissionForm1.Properties.Settings.GlobalReference.Default.iihtConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ClassRegConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ClassRegConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.AdmissionForm1.Properties.Settings.GlobalReference.Default.iihtConnectionString" Provider="System.Data.SqlClient" />
         </Connections>
         <Tables>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="studentfeesdetailsTableAdapter" GeneratorDataComponentClassName="studentfeesdetailsTableAdapter" Name="studentfeesdetails" UserDataComponentName="studentfeesdetailsTableAdapter">
             <MainSource>
-              <DbSource ConnectionRef="iihtConnectionString (Settings)" DbObjectName="iiht.dbo.studentfeesdetails" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+              <DbSource ConnectionRef="ClassRegConnectionString (Settings)" DbObjectName="ClassReg.dbo.studentfeesdetails" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
                 <InsertCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="false">
                     <CommandText>INSERT INTO [dbo].[studentfeesdetails] ([studentname], [coursename], [totalfee], [action], [registrationfee], [dor], [installment], [amount], [dateamount], [status], [balance]) VALUES (@studentname, @coursename, @totalfee, @action, @registrationfee, @dor, @installment, @amount, @dateamount, @status, @balance)</CommandText>
@@ -56,7 +56,7 @@
       </DataSource>
     </xs:appinfo>
   </xs:annotation>
-  <xs:element name="iihtDataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="iihtDataSet2" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="iihtDataSet2">
+  <xs:element name="ClassRegDataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ClassRegDataSet2" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ClassRegDataSet2">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
         <xs:element name="studentfeesdetails" msprop:Generator_RowClassName="studentfeesdetailsRow" msprop:Generator_RowEvHandlerName="studentfeesdetailsRowChangeEventHandler" msprop:Generator_RowDeletedName="studentfeesdetailsRowDeleted" msprop:Generator_RowDeletingName="studentfeesdetailsRowDeleting" msprop:Generator_RowEvArgName="studentfeesdetailsRowChangeEvent" msprop:Generator_TablePropName="studentfeesdetails" msprop:Generator_RowChangedName="studentfeesdetailsRowChanged" msprop:Generator_UserTableName="studentfeesdetails" msprop:Generator_RowChangingName="studentfeesdetailsRowChanging" msprop:Generator_TableClassName="studentfeesdetailsDataTable" msprop:Generator_TableVarName="tablestudentfeesdetails">
