@@ -19,8 +19,8 @@ namespace AdmissionForm1
 
         private void courseview_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'iihtDataSet3.coursetbl' table. You can move, or remove it, as needed.
-            this.coursetblTableAdapter.Fill(this.iihtDataSet3.coursetbl);
+            // TODO: This line of code loads data into the 'ClassRegDataSet3.coursetbl' table. You can move, or remove it, as needed.
+            this.coursetblTableAdapter.Fill(this.ClassRegDataSet3.coursetbl);
 
         }
 
