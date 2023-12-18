@@ -138,7 +138,7 @@ SELECT studentid, firstname, lastname, dateofbirth, gender, email, phonenumber, 
       </DataSource>
     </xs:appinfo>
   </xs:annotation>
-  <xs:element name="iihtDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="iihtDataSet1" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="iihtDataSet1">
+  <xs:element name="ClassRegDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ClassRegDataSet1" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ClassRegDataSet1">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
         <xs:element name="admissiontbl" msprop:Generator_RowClassName="admissiontblRow" msprop:Generator_RowEvHandlerName="admissiontblRowChangeEventHandler" msprop:Generator_RowDeletedName="admissiontblRowDeleted" msprop:Generator_RowDeletingName="admissiontblRowDeleting" msprop:Generator_RowEvArgName="admissiontblRowChangeEvent" msprop:Generator_TablePropName="admissiontbl" msprop:Generator_RowChangedName="admissiontblRowChanged" msprop:Generator_UserTableName="admissiontbl" msprop:Generator_RowChangingName="admissiontblRowChanging" msprop:Generator_TableClassName="admissiontblDataTable" msprop:Generator_TableVarName="tableadmissiontbl">
